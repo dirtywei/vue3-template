@@ -1,0 +1,41 @@
+{
+  "name": "vite-project",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "build:test": "vite build --mode development",
+    "preview": "vite preview",
+    "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore",
+    "format": "prettier --write src/"
+  },
+  "dependencies": {
+    "@headlessui/vue": "^1.7.16",
+    "@vueuse/core": "^10.3.0",
+    "axios": "^1.4.0",
+    "crypto-js": "^4.1.1",
+    "lodash-es": "^4.17.21",
+    "pinia": "^2.1.6",
+    "qs": "^6.11.2",
+    "vue": "^3.3.4",
+    "vue-router": "^4.2.4"
+  },
+  "devDependencies": {
+    "@typescript-eslint/parser": "^6.4.0",
+    "@vitejs/plugin-legacy": "^4.1.1",
+    "@vitejs/plugin-vue": "^4.2.3",
+    "@vitejs/plugin-vue-jsx": "^3.0.2",
+    "eslint": "^8.47.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-prettier": "^5.0.0",
+    "eslint-plugin-vue": "^9.17.0",
+    "prettier": "^3.0.2",
+    "unocss": "^0.55.2",
+    "unplugin-auto-import": "^0.16.6",
+    "unplugin-vue-components": "^0.25.1",
+    "vite": "^4.4.5",
+    "vite-plugin-compression": "^0.5.1"
+  }
+}
