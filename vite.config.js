@@ -27,7 +27,7 @@ export default defineConfig({
     })
   ],
   resolve: { alias: { '@': path.join(__dirname, 'src') } },
-  build: {outDir: 'dist' },//指定输出路径（相对于 项目根目录)
+  build: { outDir: 'dist' }, //指定输出路径（相对于 项目根目录)
   esbuild: { drop: ['console', 'debugger'] },
   server: {
     port: 4000,

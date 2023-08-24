@@ -1,4 +1,4 @@
-export function createPermissionGuard(router) {
+export function createGuardPermission(router) {
   router.beforeEach(async (to) => {
     console.log(to)
     /** 没有token的情况 */

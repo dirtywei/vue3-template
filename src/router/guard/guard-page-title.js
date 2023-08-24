@@ -1,6 +1,6 @@
 const baseTitle = import.meta.env.VITE_TITLE
 
-export function createPageTitleGuard(router) {
+export function createGuardPageTitle(router) {
   router.afterEach((to) => {
     const pageTitle = to.meta?.title
     if (pageTitle) {
